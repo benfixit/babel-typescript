@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Chukwuemeka Inya <chukwuemekai@connecterra.io>",
   "license": "MIT",
+  "scripts": {
+    "watch": "babel src --out-dir lib --extensions '.ts' --watch",
+    "build": "babel src --out-dir lib --extensions '.ts'"
+  },
   "dependencies": {
     "typescript": "^4.4.2"
   },
